@@ -120,6 +120,12 @@
         <internal.maven.repo>file:///tmp/falcontemprepo</internal.maven.repo>
         <excluded.test.groups>exhaustive</excluded.test.groups>
     </properties>
+   
+   <properties>
+         <sonar.projectKey>nipaponliang_ass2_2</sonar.projectKey>
+         <sonar.organization>nipaponliang</sonar.organization>
+         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+   </properties>
 
     <profiles>
         <profile>
